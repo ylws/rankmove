@@ -1,0 +1,196 @@
+/*
+ *网络教研 后台管理活动
+ * TCactivemanage
+ *  * */
+.TCactivemanage{
+	border:1px solid #dbdbdb;
+	float: left;
+	height: auto;
+	position: relative;
+	width: 1198px;
+}
+.TCactivemanage_tabs{
+	border-right: 1px solid #dbdbdb ;
+	float: left;
+	width: 150px;
+}
+.TCactivemanage_tabs a{
+	border-bottom: 1px solid #dbdbdb;
+	cursor: pointer;
+	float: left;
+	font-size: 15px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	width: 100%;
+}
+.TCactivemanage_tabs a:last-child{
+	border-bottom: none;
+}
+.TCactivemanage_tabs a.selected{
+	background: #ededed;
+}
+.TCactivemanage_tabs a {
+	color: #333;
+	font-size: 15px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	width: 100%;
+}
+.TCactivemanage_contents{
+	float: left;
+	width: 1047px;
+}
+.TCactivemanage_contents .content{
+	display: none;
+	float: left;
+	line-height: 30px;
+	margin: 0px 36px;
+	width: 975px;
+}
+.TCactivemanage_contents .content .title{
+	border-bottom: 1px solid #dbdbdb;
+	float: left;
+	font-size: 15px;
+	line-height: 16px;
+	height: 16px;
+	margin-top: 22px;
+	margin-bottom: 20px;
+	padding-bottom: 14px;
+	position: relative;
+	width: 100%;
+}
+.TCactivemanage_contents .content .add{
+	border-bottom: 1px solid #dbdbdb;
+	background: url(../images/global_icon_2.1.png) -163px -228px no-repeat ;
+	color: #008DCF;
+	cursor: pointer;
+	float: right;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 16px;
+	height: 16px;
+	margin-top: 22px;
+	margin-bottom: 20px;
+	padding-top: 2px;
+	padding-bottom: 12px;
+	position: absolute;
+	right: 0;
+	text-indent: 29px;
+	width: 145px;
+}
+.listdiv{
+	float: left;
+	margin-bottom: 50px;
+	width: 100%;
+}
+.listdiv .head{
+	border-bottom: 1px solid #dbdbdb;
+	float: left;
+	height: 53px;
+	width: 100%;
+}
+.listdiv .head .name,.listdiv .head .status,.listdiv .head .opt,.listdiv .head .pink{
+	box-shadow: 1px 0px 0 0 #dbdbdb;
+    font-weight: 600;
+    float: left;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+	width: 25%;
+}
+.listdiv .head .status{
+	width: 10%;
+}
+.listdiv .head .pink{
+	margin-left: -1px;
+	width: 15%;
+}
+.listdiv .head .opt{
+	box-shadow:none;
+	width: 50%;
+}
+.listdiv .list{
+	border-bottom: 1px solid #dbdbdb;
+	background: #fff;
+	float: left;
+	height: 53px;
+	width: 100%;
+}
+.listdiv .list .name,.listdiv .list .status,.listdiv .list .pink{
+	box-shadow: 1px 0px 0 0 #dbdbdb;
+	float: left;
+	height: 53px;
+	line-height: 53px;
+	text-align: center;
+	width: 25%;
+}
+.listdiv .list .status{
+	width: 10%;
+}
+.listdiv .list .pink{
+	
+	width: 15%;
+}
+.listdiv .list .pink input{
+	box-shadow: 1px 0px 0 0px #dbdbdb inset;
+	border:none;
+	float: left;
+	height: 53px;
+	line-height: 53px;
+	margin: 0;
+	outline: none;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+.listdiv .list .opt{
+	float: left;
+	height: 53px;
+	width: 50%;
+}
+.listdiv .list .opt .edit,.listdiv .list .opt .up,.listdiv .list .opt .down,.listdiv .list .opt .btnset,.listdiv .list .opt .del{
+	cursor: pointer;
+	float: left;
+	height: 53px;
+	line-height: 53px;
+	text-align: center;
+	width: 20%;
+}
+.listdiv .list .opt span{
+	float: left;
+}
+.listdiv .list .opt .editicon {
+	background: url(../images/global_icon_2.1.png) -92px 0px no-repeat;
+    cursor: pointer;
+    float: left;
+    height: 22px;
+    margin: 16px 5px 0 18px;
+    width: 22px;
+}
+.listdiv .list .opt  .delicon {
+    background: url(../images/global_icon_2.1.png) -66px -110px no-repeat;
+    cursor: pointer;
+    float: left;
+    height: 22px;
+    margin: 16px 5px 0 18px;
+    width: 22px;
+}
+.listdiv .list .opt .upicon{
+    background: url(../images/global_icon_2.1.png) -113px -109px no-repeat;
+    cursor: pointer;
+    float: left;
+    height: 22px;
+    margin: 16px 5px 0 18px;
+    width: 22px;
+}
+.listdiv .list .opt .downicon{
+    background: url(../images/global_icon_2.1.png) -113px -109px no-repeat;
+    cursor: pointer;
+    float: left;
+    height: 22px;
+    margin: 16px 5px 0 18px;
+    transform: rotate(180deg);
+    width: 22px;
+}
